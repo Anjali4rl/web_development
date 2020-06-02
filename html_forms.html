@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1> This is My Form</h1>
+    <form action="backend.php">
+    <div>
+        <label for="name">
+        Name:</label><input type="text" name="myname" id="name">
+    </div>
+    <br>
+    <div>
+        <label for="rollno">Rollno: </label><input type="number" name="rollno" id="rollno">
+    </div>
+    <br>
+    <div>
+        <label for="myemail"> Email:</label>
+        <input type="email" name="myemail" id="myemail">
+    </div>
+    <br>
+    <div>
+        <label for="mydob">Date of Birth: </label>
+        <input type="date" name="mydob" id="mydob">
+    </div><br>
+    <div>
+        <label for="myyear">Year:
+
+        </label>
+        <select  name="myyear" id="myyear">
+            <option value="1">1st year</option>
+            <option value="2">2nd year</option>
+            <option value="3">3rd year</option>
+            <option value="4">4th year</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="mygender">Gender :</label> 
+        Male<input type="Radio" name="mygender" id="mygender">  
+        Female<input type="Radio" name="mygender" id="mygender">  
+        Other<input type="Radio" name="mygender" id="mygender">
+      </div>
+        <br>
+    <div>
+        <label for="myhobbies">Hobbies:</label>
+        <br>
+        Reading:<input type="Checkbox" name="myhobbies" id="myhobbies"  unchecked>
+        Dancing:<input type="Checkbox" name="myhobbies" id="myhobbies" >
+        Singing:<input type="Checkbox" name="myhobbies" id="myhobbies">
+        Cooking:<input type="Checkbox" name="myhobbies" id="myhobbies">
+
+    </div>
+    <br>
+    <div><label for="myarea"> Write About Yourself :</label><br><textarea name="myarea" cols="50" rows="20" id="myarea"></textarea>   ></div>
+    <br>
+   <div>
+<input type="reset" value="Clear form">
+  
+        <input type="submit" value="Submit Now">
+    </div>
+</form>
+    
+</body>
+</html>
